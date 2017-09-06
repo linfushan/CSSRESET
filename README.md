@@ -34,7 +34,7 @@ header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,de
 
 ```css
 body{
-line-height:1;
+  line-height:1;
 }
 ```
 
@@ -42,7 +42,7 @@ line-height:1;
 
 ```css
 h1,h2,h3,h4,h5,h6,pre{
-font-size:100%;
+  font-size:100%;
 }
 ```
 
@@ -50,7 +50,7 @@ font-size:100%;
 
 ```css
 ol,ul{
-list-style:none;
+  list-style:none;
 }
 ```
 
@@ -58,8 +58,8 @@ list-style:none;
 
 ```css
 table {
-border-collapse: collapse;
-border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 ```
 
@@ -67,7 +67,7 @@ border-spacing: 0;
 
 ```css
 :link,:visited{
-text-decoration:none;
+  text-decoration:none;
 }
 ```
 
@@ -75,7 +75,7 @@ text-decoration:none;
 
 ```css
 a,button,input[type='button']{
-cursor:pointer;
+  cursor:pointer;
 }
 ```
 
@@ -83,14 +83,14 @@ cursor:pointer;
 
 ```css
 .clearfix:after {
-content:".";
-display:block;
-height:0;
-visibility:hidden;
-clear:both;
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
 }
 .clearfix {
-*zoom:1;
+  *zoom:1;
 }
 ```
 
